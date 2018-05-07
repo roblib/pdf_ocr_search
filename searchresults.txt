@@ -1,0 +1,9 @@
+ocr//ir-21273-PDF.pdf.txt:depression
+ocr//ir-8978-PDF.pdf.txt:targetword1
+ocr//ir-ir-batch6-5480.pdf.txt:Depression
+ocr//ir-ir-batch6-5480.pdf.txt:depression
+ocr//ir-ir-batch6-5480.pdf.txt:depression
+ocr//ir-ir-batch6-5480 (1).pdf.txt:targetword2
+ocr//ir-ir-batch6-5480 (1).pdf.txt:Depression
+ocr//ir-ir-batch6-5480 (1).pdf.txt:depression
+ocr//ir-ir-batch6-5480 (1).pdf.txt:depression

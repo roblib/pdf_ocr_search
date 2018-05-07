@@ -1,0 +1,825 @@
+Original Research published: 16 January 2018 doi: 10.3389/fvets.2018.00002
+
+A Smartphone-Based Application Improves the Accuracy, Completeness, and Timeliness of Cattle Disease Reporting and Surveillance in Ethiopia
+
+Edited by: Tariq Halasa, Technical University of Denmark, Denmark
+Reviewed by: Ana Carolina Antunes, Technical University of
+Denmark, Denmark Andres M. Perez,
+University of Minnesota, United States
+*Correspondence: Crawford W. Revie
+crawfordrevie@gmail.com
+Present address: Tariku Jibat Beyene, Department of Diagnostic Medicine and Pathobiology, College of Veterinary Medicine, Kansas State University, Manhattan,
+KS, United States
+Specialty section: This article was submitted to
+Veterinary Epidemiology and Economics,
+a section of the journal Frontiers in Veterinary Science
+Received: 02 August 2017 Accepted: 04 January 2018 Published: 16 January 2018
+Citation: Beyene TJ, Asfaw F, Getachew Y,
+Tufa TB, Collins I, Beyi AF and Revie CW (2018) A Smartphone-
+Based Application Improves the Accuracy, Completeness,
+and Timeliness of Cattle Disease Reporting and Surveillance in Ethiopia. Front. Vet. Sci. 5:2.
+doi: 10.3389/fvets.2018.00002
+
+Tariku Jibat Beyene1,2, Fentahun Asfaw1, Yitbarek Getachew1, Takele Beyene Tufa1, Iain Collins3, Ashenafi Feyisa Beyi1,4 and Crawford W. Revie5*
+1College of Veterinary Medicine and Agriculture, Addis Ababa University, Bishoftu, Ethiopia, 2Department of Diagnostic Medicine and Pathobiology, College of Veterinary Medicine, Kansas State University, Manhattan, KS, United States, 3Cojengo Ltd, Glasgow, United Kingdom, 4Department of Animal Sciences, University of Florida, Gainesville, FL, United States, 5Department of Health Management, Atlantic Veterinary College, University of Prince Edward Island, Charlottetown, PEI, Canada
+Accurate disease reporting, ideally in near real time, is a prerequisite to detecting disease outbreaks and implementing appropriate measures for their control. This study compared the performance of the traditional paper-based approach to animal disease reporting in Ethiopia to one using an application running on smartphones. In the traditional approach, the total number of cases for each disease or syndrome was aggregated by animal species and reported to each administrative level at monthly intervals; while in the case of the smartphone application demographic information, a detailed list of presenting signs, in addition to the putative disease diagnosis were immediately available to all administrative levels via a Cloud-based server. While the smartphone-based approach resulted in much more timely reporting, there were delays due to limited connectivity; these ranged on average from 2 days (in well-connected areas) up to 13 days (in more rural locations). We outline the challenges that would likely be associated with any widespread rollout of a smartphone-based approach such as the one described in this study but demonstrate that in the long run the approach offers significant benefits in terms of timeliness of disease reporting, improved data integrity and greatly improved animal disease surveillance.
+Keywords: cattle disease, data integrity, diagnosis, smartphone application, surveillance
+INTRODUCTION
+Livestock diseases affect productivity of animals through decreased yield and work output, in addition to direct mortality. In Ethiopia, livestock agriculture accounts for around 20% of the total gross domestic product, 45% of the agricultural gross domestic product (1, 2) and directly contributes to livelihood in around 65% of Ethiopian families (3). In this context, the high burden of livestock disease (4, 5) combined with limited infrastructure, poses significant challenges for animal productivity in the country (6, 7). For instance, it has been estimated that annual direct losses due to mortality account for around 8­10% of the national cattle herd, 14­16% of the sheep flock, and 11­13% of the goat flock (8).
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+1
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+Protecting animal and human health requires adequate disease reporting to allow appropriate action to be taken to mitigate potential risks quickly and effectively (9, 10). Surveillance systems and animal disease monitoring more generally are a major component of health-care systems (11, 12). Such systems are critical to any assessment of existing levels of disease, effectiveness of control programs and, in the context of disease eradication programs, documentation around the continued absence of disease from a given population or region, in addition to the detection of emerging diseases (11). Presence of robust animal disease surveillance systems also benefits human health as around 75% of the emerging infectious diseases that affect humans have their origin in animal populations (13).
+Timely and accurate surveillance data at regional and national levels are therefore critical to support continuous improvements in animal health and in detecting outbreaks of diseases, including emerging and zoonotic diseases (14). Near real-time disease reporting, as opposed to interval-based "batch" reporting, is important in mitigating the impact of livestock disease, as early notification shortens the time between detection and the provision of effective measures for control (15). However, the current approach taken to animal surveillance in many African countries, as is the case for the Ethiopian national veterinary service department, is based on paper-based reports often prepared on a monthly basis which will inevitably only slowly reach the relevant central/national databases. In addition, these short summary reports typically indicate only total numbers of cases and lack the level of detail, such as clinical signs or disease specifics, required to estimate basic epidemiological metrics such as proportional morbidity, or the sign/disease frequencies that are critical for syndromic surveillance (16).
+The application and use of smartphone technology has been more generally explored in the field of public health care (17, 18) and community-based reporting (19) within low resource settings. Such tools and services have been proposed as a means to substantially improve animal health recording, reporting, and surveillance in developing countries (12), but few detailed field-based trials have been reported in the literature. In this study, the value of a previously developed smartphone application (20), whose main aim is to assist cattle disease diagnosis, was assessed in terms of its utility for disease reporting, with the outcomes for its use in the field being compared with the traditional manual disease reporting system currently used in Ethiopia.
+MATERIALS AND METHODS
+The details of the smartphone app used within this study, VetAfrica­Ethiopia, have been described elsewhere (20). However, a brief overview of its operation may be helpful to provide context to the research discussed in this study. VetAfrica­Ethiopia records location and demographic data for each presenting case, together with a list of clinical signs. There is a predefined list of 16 signs from which the user is invited to indicate those that are present or absent for the case in question, after which she may indicate other signs that have been observed to be present. The Bayesian inference algorithm within VetAfrica­Ethiopia
+
+then uses these data to provide a diagnostic list of the potential cattle disease(s) present of decreasing likelihood. In addition to the 15 most commonly occurring diseases for cattle in Ethiopia, there is an option that "other" may be presented as part of any differential list--indicating that the clinical presentation is not higher consistent with any of the diseases being specifically evaluated within the algorithm. The user is then asked to specify which disease they believe the animal to be affected by, and in the case that they believe this to be "other" they are invited to provide the specific alternative disease. Following the clinical presentation and diagnostic steps, information is presented as to appropriate treatment options and, where relevant, details regarding any samples collected from the case for laboratory analysis are recorded.
+Study Sites and Participants
+This study was conducted in 11 public veterinary clinics located in three regions of Ethiopia: Central (3 clinics), East (4 clinics), and South (4 clinics). Twelve final-year veterinary medicine students from the College of Veterinary Medicine and Agriculture of Addis Ababa University were allocated to specific veterinary clinics, as part of the Colleges' assignment for final-year clinical practice. Six students (two in Central, two in Eastern, and two in Southern Ethiopia) were given smartphones which had the VetAfrica­Ethiopia application installed, while six students were similarly assigned to the other public veterinary clinics in each region but were not given smartphones, using manual diagnosis methods and paper-based recording of case data. (Two students were allocated to Bishoftu, one of the clinics in Central Ethiopia, where they worked independently but in the same clinic, one with and the other without the VetAfrica smartphone application.) As many of the farmers are illiterate and are not able to read and write, before approaching the case, the students asked the owner for oral consent to participate in the study mentioning that individual/personal information will not published, and then for followed by recording details of the case.
+The group given Android smartphones were provided with basic training on the use of the smartphone app for clinical case management as well as instruction on how to carry out rudimentary troubleshooting, such as ensuring that recorded cases were successfully delivered to the Cloud. The selection of diseases appropriate to Ethiopia, as well as the process of app development, has been reported elsewhere (20). During the initial project information session, those students who were not chosen by random selection to work in the "smartphone" group were informed that they would be given an Android phone with the application installed at the end of the trial. The back-end services on the Cloud were delivered using Microsoft's Azure platform, both for managing case-level data and providing access to dashboard-based data summaries. Azure provides built-in support for many important security features (https://docs. microsoft.com/en-us/azure/security/) such as encrypted data transmission and multifactor authentication, making solutions based on this platform more secure than would likely be the case if these security had been manually created by the application and/or back-end developers.
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+2
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+Clinical Presentation of Cases and Proportional Morbidity by Disease
+An assessment of the way in which case presentation was recorded in the traditional paper-based approach was made and compared with the case recording facilitated by VetAfrica. In particular, the number and form of clinical signs recorded under these alternative approaches was summarized and compared. The list of cattle diseases for cases presenting at the veterinary clinics during the study period, as diagnosed by the student practitioners using VetAfrica and the paper-based approach, were reviewed and enumerated. Accordingly the top ranked diseases and their estimated proportional morbidity (i.e., the relative frequency of each disease from the total cases visiting the clinics during the study period) were reported.
+Comparison of Features Recorded by VetAfrica to the Traditional Approach
+The level of completeness associated with demographic and patient information was compared between the group using the VetAfrica app and the manual case recording and reporting. The time taken for case information to be reported to higher administrative levels was also compared for these two approaches. In addition, the number of clinical signs observed per case was compared. Descriptive statistics were used to explore the proportion of cases diagnosed across demographic and disease specific scenarios. Chi-square tests were used to ascertain differences in profile of sex, age, and breed by regions for both the VetAfrica app-assisted and manually reported cases. Potentially beneficial features of VetAfrica were also compared qualitatively with the manual approach, in terms of completeness, level of detail, and the mean number of days required for a report to reach higher administrative levels. The number of days required for a report to reach each level was estimated using paper records from the receiving offices (at district, zone, and federal levels) for the manual reporting approach. In the case of VetAfrica, the data are available to all authorized users as soon as the details of a case have been uploaded to the Cloud server.
+
+Descriptive tables, statistical tests and visual summaries were prepared using libraries from the tidyverse package within R v3.1.3 (21).
+RESULTS
+Breakdown of Cases Reported
+The student practitioners who used the VetAfrica smartphone application and those who used the manual recording approach reported a total of 547 and 678 cases, respectively, based on cattle visiting the veterinary clinics across the three regions. A breakdown of these cases by breed, sex, and age group, according to region, can be found in Table 1. This table indicates that a relatively lower number of animals were examined in the South region, particularly for the group who used the traditional paper-based approach. The proportions of cases that related to cross and exotic bred cattle varied significantly by region, with both reporting approaches indicating much lower proportions of these breeds of cattle in the South region. In the case of the paperbased approach, there was also a significantly lower proportion of exotic cattle in the East. When considering the sex of the cases, no significant differences in proportions (p = 0.07) was seen in the VetAfrica group, but for the paper-based approach there was significantly fewer female cattle reported in the South region. In the case of cattle age, entries using the paper-based approach were inconsistent with some cattle recorded in terms of months, years, or other non-standard abbreviations; as such we aggregated according to those which could be considered to be "adult" with the rest being classified as "young" (Table 1). There were no significant differences in the proportions of those within these aggregated age groups by region, but for the case of the VetAfrica group there was evidence of differences in age structure across regions, with the South reporting significantly (p = 0.01) more diseased animals under 1 year old.
+Profile of Diseases Diagnosed and Their Proportional Morbidity
+The profile of the top ranked diseases, as diagnosed by the student practitioners, and their respective proportional morbidity
+
+TABLE 1 | Breakdown of cases in cattle refcorded using VetAfrica (N = 547) and those using traditional paper-based reporting (N = 678) by region and in terms of proportions across key variables within each region.
+
+Diagnosis and reporting using the VetAfrica app
+
+Diagnosis and reporting using paper-based approach
+
+Central
+
+East
+
+South
+
+Sum
+
+p-Value*
+
+Central
+
+East
+
+South
+
+Sum
+
+p-Value*
+
+N
+
+188
+
+195
+
+164
+
+547
+
+N
+
+369
+
+206
+
+103
+
+678
+
+By breed By sex By age (months)
+
+Cross Exotic Local
+Female Male
+0­6 7­12 13­24 Over 24
+
+10.1% 3.7%
+86.2%
+38.3% 61.7%
+2.7% 3.2% 15.4% 78.7%
+
+11.3% 7.2% 81.5%
+43.1% 56.9%
+4.1% 2.1% 15.9% 77.9%
+
+4.9% 0.6% 94.5%
+50.6% 49.4%
+7.3% 7.9% 20.1% 64.6%
+
+*Fisher's exact test, young 2 years/24 months and adult >24 years.
+
+9.0% 4.0% 87.0%
+43.7% 56.3%
+4.6% 4.2% 17.0% 74.2%
+
+<0.01 0.07 0.01
+
+Cross Exotic Local
+Female Male
+Young
+
+0.5% 13.0% 86.5%
+50.9% 49.1%
+11.7%
+
+5.3% 1.0% 93.7%
+42.7% 57.3%
+13.6%
+
+1.9% 0% 98.1%
+23.3% 76.7%
+7.8%
+
+2.2% 7.4% 90.4%
+44.2% 55.8%
+11.7%
+
+<0.01 <0.01
+0.32
+
+Adult
+
+88.3% 86.4% 92.2% 88.3%
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+3
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+based on the two reporting approaches are given in Table 2. A graphical summary of most commonly occurring diseases, where a specific diagnosis was given, is presented in Figure 1. Common causes of morbidity in both groups were parasitic gastro enteritis (PGE), foot and mouth disease (FMD), pasteurollosis, and blackleg. Of interest is the fact that lungworm, the second most commonly reported disease by the VetAfrica group (~10% of all cases), was only reported twice in the cases that used manual reporting.
+The student practitioner group which used the VetAfrica app diagnosed an additional 40 disease conditions (Table S1 in Supplementary Material) over and above those listed in Table 2 (which indicates all diseases that accounted for at least 1% of the proportional morbidity). This group provided a specific disease outcome for around 98% of all cases diagnosed. The group using the manual approach also provided around 40 additional diseases or "syndromes" (Table S2 in Supplementary Material). However, in just over half of cases reported by this group (51.1%), the diagnosis was given as a non-specific outcome (Table 3).
+Comparison in Terms of Reporting Completeness
+Details of the information captured by those using the smartphone app and those using the paper-based approach are given in Table 4. In addition, the level of detail reported to higher administrative levels (i.e., zonal, regional, and federal level) is
+
+TABLE 2 | List of most commonly occurring diseases in cattle, as diagnosed by the student practitioners, and their proportional morbidity based on the two reporting approaches.
+
+Disease
+
+Using VetAfrica (N = 547) (%)
+
+Using paper (N = 678) (%)
+
+Parasitic gastro enteritisa
+
+10.1
+
+10.2
+
+Lungworma
+
+9.6
+
+0.3
+
+Foot and mouth diseasea
+
+7.3
+
+3.1
+
+Colibacillosisa
+
+6.4
+
+­
+
+Fasciolosisa
+
+5.7
+
+0.6
+
+Pasteurollosisa
+
+5.7
+
+7.1
+
+Blacklega
+
+5.3
+
+5.2
+
+Tick infestation
+
+4.6
+
+1.3
+
+Babesiosisa
+
+4.0
+
+­
+
+Lice infestation
+
+3.3
+
+0.4
+
+Lumpy skin diseasea
+
+3.1
+
+1.3
+
+Trypanosomiasisa
+
+2.9
+
+­
+
+Cowdriosisa
+
+2.7
+
+­
+
+Contagious bovine pleuropneumoniaa
+
+2.4
+
+­
+
+Rabiesa
+
+2.2
+
+­
+
+Mastitis
+
+2.2
+
+2.2
+
+Dermatophylosis
+
+­
+
+1.8
+
+Retained placenta
+
+1.5
+
+1.0
+
+Mechanical injury
+
+1.5
+
+0.9
+
+Salmonellosis
+
+1.3
+
+1.2
+
+Simple indigestion
+
+1.3
+
+0.3
+
+Pneumonia
+
+1.1
+
+2.9
+
+Actinobacillosis
+
+1.1
+
+1.1
+
+Tuberculosisa
+
+1.1
+
+­
+
+Other
+
+16.2
+
+59.6
+
+aThese diseases are those covered by the differential diagnostic process operating within the VetAfrica app.
+
+summarized. In the group that used the VetAfrica app, the full set of information captured during the diagnostic process, including each animal's sex, age, and breed, together with a detailed list of clinical signs and the specific disease outcome were all available at any of the higher administrative levels. However, those using the manual approach only reported the total number of cases (by month) for a particular disease/syndrome, aggregated by animal species. None of the potentially valuable demographic information captured during diagnosis (each animal's sex, age, breed, clinical signs, etc.) was transmitted to the administrative offices at the zonal, regional or federal levels.
+Delay in Time Taken to Report
+The average times taken for case reports to become available at all administrative levels (and to all authorized access) for the group who were using the VetAfrica app were 2 days (95% CI: 1.6­2.3), 5 days (95% CI: 3.8­5.4), and 13 days (95% CI: 12­14.9) for the Central, East, and Southern regions, respectively. The proportions of cases reported over time are compared across the three regions in Figure 2. Cases reported from the South region took significantly longer (p < 0.01) when compared with the Central and East regions (up to a maximum of 35 days).
+In the paper-based manual reporting approach, the chain of command states that each veterinary clinic should report the aggregated number of cases by animal species to the District Agricultural office. The District Agricultural office then sums the number of cases from the different veterinary clinics within the district and reports to the Zonal Agricultural office. This zonal office in turn aggregates the number of cases from the different districts and reports to the regional and federal veterinary offices. Although this paper-based reporting approach sounds complex and error-prone, we estimated that between 52 and 97% of the veterinary clinics reported to the district level, between 88 and 100% of the districts reported to the zone, and between 44 and 89% reported to the highest level (as shown in Table 5). Thus, for example, of the 10 veterinary clinics in the Bishoftu district reporting over a 9-month period (June 2015­ March 2016), 62 (~70%) of the possible 90 clinic months had valid reports. Similarly, of the nine monthly reports expected to be reported to the zonal agricultural offices, between 4 and 8 were actually received.
+Occurrence and Standardization of Clinical Signs
+The average number of clinical signs recorded as being present for any given case by the group using the VetAfrica application was 5.8 (95% CI: 5.6­6.0); significantly higher than the mean of 2.2 (95% CI: 2.1­2.3) clinical signs recorded in the paper-based system. In actual fact, a number of the paper-based cases also recorded the animal's body temperature which, given a certain threshold, could be seen as providing the additional sign of "fever"; adding these instances still resulted in a mean of less than half that seen for VetAfrica, at 2.5 (95% CI: 2.4­2.6) signs. It should also be noted that in many cases reported in VetAfrica the user indicated the absence of certain clinical signs. If the absence of a sign were also to be included then the mean number
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+4
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+FIGURE 1 | Comparison between the leading putative causes of cattle morbidity where specific disease was reported in cases using VetAfrica­Ethiopia (N = 451) and those using traditional paper-based reporting (N = 277). Abbreviations: PGE, parasitic gastro enteritis; FMD, foot and mouth disease; LSD, lumpy skin disease; CBPP, contagious bovine pleuropneumonia.
+
+TABLE 3 | Summary of main non-specific diagnoses given for cases diagnosed in cattle using the traditional paper-based approach.
+
+Diagnosis/syndrome Count % Sum (%) Overall category
+
+Infectious disease Infection Endo-/ectoparasite Systemic infection Septicemic Enteritis GIT problems Specific diseases Others (<1%)
+
+95 14.0
+
+68 10.0
+
+64
+
+9.4
+
+46
+
+6.8
+
+44
+
+6.5
+
+16
+
+2.4
+
+12
+
+1.8
+
+270
+
+63
+
+51.1 (Non-specific diagnoses)
+40.4 (As detailed in Table 2) 8.5 (Infrequent diagnoses:
+see Table S2 in Supplementary Material)
+
+of clinical signs per case for this approach would be closer to 13. However, for the sake of making more realistic comparisons with data from the paper-based approach, we will restrict the current analyses to only those signs that were indicated to be present for a given case.
+The list of clinical signs provided for cases captured using the two recording approaches is shown in Table 6. The signs are ordered according to those which occurred most frequently
+
+TABLE 4 | Comparison on details of information captured and reported for cattle by VetAfrica app users versus manual system users.
+
+VetAfrica app
+
+Manual approach
+
+Details captured while diagnosing (local level)
+Details included while reporting (to higher administrative levels)
+
+For each animal:
+Sex Age Breed Detailed list of clinical signs Specific disease
+For each animal: All of the above noted data were available to all administrative levels in real timea
+
+For each animal:
+Sex Age Breed Limited list of clinical signs Disease or syndrome
+By animal species group: Number of cases (aggregated over previous month) for disease/ syndromeb
+
+aReal-time/instant reporting depended on available Internet connection (see also next section). bReported as batch updates at the end of each month.
+
+when signs were recorded by the group using the VetAfrica app. Before comparing the proportion of cases for which given signs occurred in it is important to note the "Other" at the foot of the table. This indicates that in 43% of the cases
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+5
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+FIGURE 2 | Density plot illustrating a comparison by region of the number of days required for a case to be available on the Cloud-based server when using the VetAfrica smartphone application.
+
+TABLE 5 | Proportion of returns at various levels of the reporting hierarchy
+(n = number of possible reporting months for veterinary clinics/posts in a given unit) when using the traditional paper-based approach.
+
+Region
+
+Reporting rates
+
+District
+
+District (from clinic)
+
+Zone
+
+Zone (from district)
+
+Federal (from zone)
+
+Central Bishoftu
+
+68.9% (n = 90) E. Shoa
+
+7/9
+
+Fitche
+
+90.5% (n = 63) N. Shoa
+
+5/9
+
+East
+
+Tiyo
+
+Boset
+
+52.2% (n = 63) Arsi
+
+7/9
+
+90.7% (n = 111) E. Shoa
+
+8/9
+
+South Alem Tena 83.3% (n = 99) E. Shoa
+
+4/9
+
+Bora
+
+97.7% (n = 36) E. Shoa
+
+6/9
+
+NA, not available. aFour of the federal results (8/9) relate to the same zone (E. Shoa).
+
+8/9a 9/9
+NA (As above)a
+(As above)a (As above)a
+
+reported using the paper-based approach some sign other than one appearing on the list in Table 6 was noted. Due to wide variety of textual representation it was not possible to categorize these into groups that included more than two or three entries each, but as a whole they represented around 18% of all signs recorded (N = 291) using this manual approach (Table S3 in Supplementary Material). When considering signs that occurred often enough to be enumerated and compared, it is interesting to note that while "Weakness" was noted in almost three-quarters of all cases recorded in VetAfrica, this sign appeared in only 1% of the paper-based cases. It is likely that this "generic" sign is almost taken for granted in the manual recording system, whereas the fact that it is explicitly presented as an option in VetAfrica means that it is much more commonly noted. The next most commonly recorded sign in VetAfrica (in 70% of cases) anorexia or loss of appetite, was also by far the most commonly noted sign (in 62% of cases) in the paper-based
+
+records. However, it should be noted that while this sign was represented by a single radio button in VetAfrica, no less than 19 different textual representations (not including misspellings) existing for those using the paper-based approach. Some of the next most common signs were also reported by both approaches, including: weight loss, fever, diarrhea, and dyspnea (although their prevalence was higher in the case of VetAfrica due to the much higher number of absolute signs reporting using that approach). Certain signs, such as staring coat, anemia, lymph node enlargement, and dehydration, occurred an order of magnitude less frequently in the paper-based system; given that each of these signs appeared in at least one in five of all cases reported in VetAfrica it seems likely that they are being systematically and grossly underreported in the paper-based records.
+Of interest, from a VetAfrica, design viewpoint is the fact that all of the signs included in the main sign list appear to be useful in picking up commonly occurring signs. There appears to be evidence that dehydration should be added to the "default" list, while nasal discharge, salivation, and lameness may also be candidates. As noted above, around 18% of all paper-based signs that are noted as "Other"; signs from this set were observed in 43% of all paper-based cases (Table 6) but none of these signs was reported in more than 1% of the cases. A list of these signs is provided in Table S3 in Supplementary Material and it may be the case that a more extensive evaluation will reveal important subgroupings that could be introduced to the system.
+DISCUSSION
+In this study, we have demonstrated the potential to improve cattle disease reporting, and thus surveillance, through the use of relatively inexpensive and increasingly ubiquitous smartphone technology. Due to the real-time reporting opportunities that
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+6
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+TABLE 6 | Proportion of times that a given sign was noted for cattle cases captured by each of the disease reporting approaches.
+
+Signa
+
+VetAfrica Paper
+
+(%)
+
+based (%)
+
+Weakness
+
+71
+
+1.6
+
+Anorexia/depression (loss of appetite)
+
+70
+
+62
+
+Weight loss/emaciation (loss of body condition)
+
+68
+
+30
+
+Staring coat (standing hair/rough coat)
+
+56
+
+8
+
+Fever (including based on temperature reading)
+
+44
+
+32
+
+Anemia and pallor
+
+35
+
+1.6
+
+Diarrhea
+
+33
+
+11
+
+Lymph node enlargement
+
+25
+
+0.1
+
+Dyspnea/coughing (difficulty breathing)
+
+24
+
+15
+
+Dehydration (x)
+
+21
+
+0.4
+
+Stunted growth or pot belly
+
+17
+
+­
+
+Constipation
+
+16
+
+0.6
+
+Dysentery (blood in feces)
+
+14
+
+1.2
+
+Submandibular/ventral edema
+
+14
+
+1.5
+
+Icterus (yellowing of membranes)
+
+12
+
+­
+
+Ataxia/abnormal behavior (loss of movement balance)
+
+12
+
+1.3
+
+Nasal discharge (x)
+
+10
+
+2.4
+
+Salivation (x)
+
+7
+
+7
+
+Lameness (x)
+
+6
+
+5
+
+Lacrimation (x)
+
+3
+
+0.7
+
+Skin nodules (x)
+
+3
+
+1.0
+
+Oral lesions (x)
+
+3
+
+0.4
+
+Abdominal breathing (x)
+
+2
+
+2.7
+
+Ulcer on tongue (x)
+
+2
+
+1.8
+
+Mouth/teat lesions (x)
+
+2
+
+1.2
+
+Hemoglobinuria (x)
+
+2
+
+0.3
+
+Wound in buccal cavity (x)
+
+1
+
+­
+
+Swollen forelimbs (x)
+
+1
+
+­
+
+Abortion (x)
+
+0.7
+
+0.1
+
+Abduction of forelimbs (x)
+
+0.4
+
+­
+
+Bloating (z)
+
+­
+
+4.4
+
+Crepitation (z)
+
+­
+
+2.5
+
+Other
+
+­
+
+43
+
+aSigns that have an "x" after them indicate "optional" signs listed in the VetAfrica interface (i.e., they may be recorded as being observed but are not considered in the differential disease diagnostic process carried out by the VetAfrica app). Those followed by a "z" indicate signs that do not appear at all in any VetAfrica list.
+
+smartphone-based reporting and surveillance systems provide, their importance for early detection of emerging and reemerging diseases is clear. For example, during the Rift Valley Fever outbreaks of 1997 in Kenya, high rates of abortion and death of livestock likely occurred well before the human epidemic, during which over 400 people died due to Rift Valley Fever before reports of animal cases had been received at the national level (22). Smartphone-based systems can also provide details about the demography of the sick entity and clinical signs of the disease, which enhances the opportunity for early detection of unusual syndromes in the area which may be directly linked to emerging or remerging diseases. When it comes to the health of their livestock, people quickly notice unusual signs and tend to report these to health authorities, provided a working system is in operation (23). Novel approaches are also being developed to combine singles that may exist in multiple data sources associated with syndromic surveillance (24).
+In this study, it was not possible to make a direct comparison with every aspect of the more traditional approach as a number of features were not available in the manual/paper-based reporting
+
+system. In the case of those aspects for which quantitative data could not be generated, an attempt was made to provide some qualitative comparisons.
+Demographic data collected using the smartphone app were shown to be comparable with the data previously collected in the same regions (20). Thus, for example, we can posit that the lower proportion of cross and exotic bred animals reported in the manual recording system across the three regions when compared with those recorded in VetAfrica was likely due to incomplete manual reporting in the former system. As another example, the formats used when manually recording an animal's sex or age were inconsistent, with age varying between months, years, and other non-standard abbreviated descriptors. In these cases, it seems highly likely that the VetAfrica derived estimates will result in more accurate aggregations and therefore in a more well-informed perspective on basic animal demography. An often reported benefit of reporting using mobile phone is the more accurate geo-referencing of case data (25). In our particular case, this was less relevant as the reports were being made from clinics whose locations were fixed and known; however, if VetAfrica were being used as part of a visit to cattle in their field setting, then the geo-referenced coordinates of each case could add significant value, particularly in the case of a disease outbreak where locational clustering can be a key indicator for early detection.
+A major challenge of traditional reporting systems centers on the need to compile reports from various sources and provide these to central offices at regular intervals and to different administrative levels (26). The compiling process is potentially challenged by unintentional alterations of results due to errors in data submission or transcription (27). On the other hand, mobile technology or electronic based case recording and reporting systems improve timeliness, quality and interoperability of data; easing data integration (28). In addition, Robertson et al. (12) reported that such mobile phone-based surveillance system reduce the number of data entry errors and facilitate automated data analysis. The increased opportunities offered by "big data" in terms of data integration and semiautomatic analyses have been reported for both human and veterinary health data recording systems (29­31).
+Those cattle diseases that have the highest importance from an economic or trade perspective were included in the VetAfrica­ Ethiopia app, based on the diseases targeted for control by the veterinary services of Ethiopia (4). These diseases were seen to have relatively high levels of proportional morbidity based on both the VetAfrica-assisted and manual reporting approaches. However, in the manual system, almost 60% of case reports did not provide a specific disease outcome; they simply noted non-specific signs or syndromes. For instance, the common causes of morbidity as recorded in both manual and VAE-assisted diagnoses were PGE, FMD, pasteurollosis, and blackleg. Lungworm was only reported twice in the cases that used manual reporting while it is the second most commonly reported disease by the VetAfrica group (~10% of all cases). It may well be that such cases were simply reported as "systemic infection" or "infectious disease" when using the paper-based approach. Some of the specific diseases (such as PGE, salmonellosis, pneumonia, and mastitis) reported using
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+7
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+the paper-based approach by some clinicians might be registered as more generic GIT problems, enteritis, bacterial infections, systemic infection, or an infectious disease. These non-specific outcomes make disease aggreg ation and estimation problematic and may mask the importance of certain economically important diseases. Even gaining estimates of simple proportional morbidity within cattle populations is difficult based on this type of data. Despite this, these non-specific signs and syndromes may have some utility in the context of syndromic surveillance (32­35).
+In a Guideline for Evaluating Public Health Surveillance Systems (36), completeness and timeliness are identified as being crucial measures of surveillance data quality. We found that the manual reporting approach omitted valuable demographic information as well as details relating to disease and clinical signs when reporting to higher administrative levels. This is not uncommon in low resource settings. In a recent survey of animal health care in rural Uganda, community animal health workers noted that only in around 10% of reports did they specify "disease identified," with "number of sick/treated animals" being the much more common surveillance metric (37). These data are expensive to collect (requiring the veterinarian's time as well as the cost of stationery) and often cannot be used at higher administrative levels for further analysis, such as for the syndromic categorization of clinical signs. Furthermore, we found that in some instances almost 50% of cases recorded at the clinic level were never reported to the district agricultural office and that this number could deteriorate further when reporting to higher levels. This has obvious implications in terms of the inconsistency in reporting from different clinics, districts, and zones. It can be seen that the regions like the South had the poorest level of reporting, probably due to the fact that this region is physically distant from the federal veterinary office. which is based in Addis Ababa. By contrast, in the case of VetAfrica-assisted reporting, every case was available for review/ analysis as all levels of administration through access to data on a secure Cloud-based server. Such infrastructural efficiencies and ubiquitous access have been at the core of some of the most innovative uses of these technologies in the sphere of human medicine, with the Global Trachoma Mapping Project providing a particularly impressive example in a number of low and middle income country settings (38). It was, however, noted that significantly longer delays occurred when reporting cases from very remote rural areas. This challenges the notion that mobile Internet technology can lead to instantaneous reporting from any animal health worker in possession of a smartphone, as telecommunications infrastructure may remain a limiting factor in such remote locations. In this study, we observed that VetAfrica-assisted reporting from the South region took significantly longer time when compared with the Central and East regions which is likely due to the fact that more remote areas tend to have less reliable access to the Internet and/or mobile data services.
+Ideally, the accuracy of the data collected by such applications should be supported by field evaluation as to disease outcomes for all cases. In our study, it was not possible to conduct field evaluation using laboratory confirmation due to logistic constraints including cold chain to keep the samples to destined locations, shortage of laboratory consumables, processing costs, etc. These constraints appear to be shared by many studies of surveillance
+
+systems (39, 40); one of which noted that only 17 out of 221 systems assessed included such evaluation. Indeed, Walker (26) notes that one of the primary barriers to implementation of new methods in veterinary and human surveillance has been the lack of evaluation of such systems.
+To the best of our knowledge, this is the first attempt to carry out a full field-based trial that addresses both cattle disease diagnosis and reporting using smartphones in a resource-limited setting. Even within human medicine, a number of the best known examples have adopted a text messaging approach, given that these can be implemented using feature phones (41, 42). A recent survey exploring the potential for mobile phone use to deliver animal health information in Uganda found that while almost all livestock keepers owned a feature phone, only around 10% owned a smartphone (43). However, based on recent trends, the shift toward smartphones and more fully functional apps is likely to continue at pace (44). Such mobile apps provide clear benefits not only in comparison to manual paper-based data collection and reporting but also to simple SMS-based approaches, in terms of gathering more consistent and complete demographic and epidemiological information. Approaches such as that demonstrated by VetAfrica offer opportunities for improvements in disease reporting and surveillance within developing countries and can facilitate the early detection of emerging diseases. While such smartphone-assisted reporting and surveillance can present considerable start-up challenges in terms of financial resources and sporadic mobile network coverage; in the long run, they offer clear benefits in terms of timeliness, improved data integrity, and ultimately a reduction in operating costs.
+ETHICS STATEMENT
+This work did not require neither sampling nor experimentation on animals or humans. However, informed consent was taken from animal owners during data collection. In addition, the handling of animals was overseen by the appropriately qualified veterinarian who was supervising the final year students as part of their training, under the normal procedures laid out in the College of Veterinary Medicine clinical rotation guidelines of Addis Ababa University.
+AUTHOR CONTRIBUTIONS
+CR and IC conceived the idea of the study, developed the smartphone app, and trained the group in its use. TB, TT, IC, AB, and CR designed the fieldwork, organized the data downloaded from the cloud server, analyzed the data, interpreted results, wrote the manuscript, and approved the version to be published. FA and YG helped in the data collection, in drafting the manuscript and approved the final version of the manuscript.
+ACKNOWLEDGMENTS
+The authors thank district veterinary officers and clinicians, as well as those in the 2016 graduated veterinary students from Addis Ababa University College of Veterinary Medicine and Agriculture who participated in the study.
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+8
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+FUNDING
+This work was supported partly by funding from the International Development Research Centre (IDRC/CRDI)/Canada--Grant Number: 107718-00020599-009.
+
+SUPPLEMENTARY MATERIAL
+The Supplementary Material for this article can be found online at http://www.frontiersin.org/articles/10.3389/fvets.2018.00002/ full#supplementary-material.
+
+REFERENCES
+1. FAO. Ethiopia Country Programming Framework. 2012-2015. Addis Ababa, Ethiopia: Food and Agriculture Organization of the United Nations, Office of the FAO representative in Ethiopia to AU and ECA (2011).
+2. Behnke RH. The Contribution of Livestock to the Economies of IGAD Member States: Study Findings, Application of the Methodology in Ethiopia and Recommendations for Further Work. Addis Ababa, Ethiopia: IGAD Livestock Policy Initiative (2010).
+3. Solomon A. Livestock Marketing in Ethiopia: A Review of Structure, Per formance, and Development Initiatives: ILRI (aka ILCA and ILRAD). Addis Ababa, Ethiopia: Livestock Marketing Authority (2003).
+4. MOA. Animal Health Yearbook (2009/10). Addis Ababa, Ethiopia: Ministry of Agriculture Animal and Plant Health Regulatory Directorate, Ethiopia (2010).
+5. Tadesse B, Sultan A. Prevalence and distribution of tick infestation on cattle at FitcheSelale, North Shewa, Ethiopia. Livest Res Rural Dev (2014) 26(8).
+6. Bayissa B, Ayelet G, Kyule M, Jibril Y, Gelaye E. Study on seroprevalence, risk factors, and economic impact of foot-and-mouth disease in Borena pastoral and agro-pastoral system, southern Ethiopia. Trop Anim Health Prod (2011) 43(4):759­66. doi:10.1007/s11250-010-9728-6
+7. Jemberu WT, Mourits MC, Woldehanna T, Hogeveen H. Economic impact of foot and mouth disease outbreaks on smallholder farmers in Ethiopia. Prev Vet Med (2014) 116(1­2):26­36. doi:10.1016/j.prevetmed.2014.06.004
+8. Asresie A, Zemedu L, Adigrat E. Contribution of livestock sector in Ethiopian economy: a review. Adv Life Sci Technol (2015) 79­90.
+9. Lajous M, Danon L, Lopez-Ridaura R, Astley CM, Miller JC, Dowell SF, et al. Mobile messaging as surveillance tool during pandemic (H1N1) 2009, Mexico. Emerg Infect Dis (2010) 16(9):1488­9. doi:10.3201/eid1609.100671
+10. Drewe J, Hoinville L, Cook A, Floyd T, Gunn G, Stärk K. SERVAL: a new framework for the evaluation of animal health surveillance. Transbound Emerg Dis (2015) 62(1):33­45. doi:10.1111/tbed.12063
+11. Doherr M, Audige L. Monitoring and surveillance for rare health-related events: a review from the veterinary perspective. Philos Trans R Soc Lond B Biol Sci (2001) 356(1411):1097­106. doi:10.1098/rstb.2001.0898
+12. Robertson C, Sawford K, Daniel SL, Nelson TA, Stephen C. Mobile phonebased infectious disease surveillance system, Sri Lanka. Emer Infect Dis (2010) 16(10):1524­31. doi:10.3201/eid1610.100249
+13. Taylor LH, Latham SM, Mark E. Risk factors for human disease emergence. Philos Trans R Soc Lond B Biol Sci (2001) 356(1411):983­9. doi:10.1098/ rstb.2001.0888
+14. Walker JG, Ogola E, Knobel D. Piloting mobile phone-based syndromic surveillance of livestock diseases in Kenya. Epidémiologie et Santé Animale (2011) 59(60):19­21.
+15. Lemon SM, Hamburg MA, Sparling PF, Choffnes ER, Mack A. Global Infectious Disease Surveillance and Detection: Assessing the Challenges-Finding Solutions, Workshop Summary. Washington, DC: National Academies Press (US) (2007).
+16. Dórea FC, Sanchez J, Revie CW. Veterinary syndromic surveillance: current initiatives and potential for development. Prev Vet Med (2011) 101(1):1­17. doi:10.1016/j.prevetmed.2011.05.004
+17. Michael BD, Geleta D. Development of ClickClinica: a novel smartphone application to generate real-time global disease surveillance and clinical practice data. BMC Med Inform Decis (2013) 13(1):70. doi:10.1186/14726947-13-70
+18. Zaidi SMA, Labrique AB, Khowaja S, Lotia-Farrukh I, Irani J, Salahuddin N, et al. Geographic variation in access to dog-bite care in Pakistan and risk of dog-bite exposure in Karachi: prospective surveillance using a low-cost mobile phone system. PLoS Negl Trop Dis (2013) 7(12):e2574. doi:10.1371/ journal.pntd.0002574
+19. Freifeld CC, Chunara R, Mekaru SR, Chan EH, Kass-Hout T, Ayala Iacucci A, et al. Participatory epidemiology: use of mobile phones for community-based
+
+health reporting. PLoS Med (2010) 7(12):e1000376. doi:10.1371/journal. pmed.1000376 20. Beyene TJ, Eshetu A, Abdu A, Wondimu E, Beyi AF, Tufa TB, et al. Assisting differential clinical diagnosis of cattle diseases using smartphonebased technology in low resource settings: a pilot study. BMC Vet Res (2017) 13(1):323. doi:10.1186/s12917-017-1249-3 21. R Development Core Team. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing (2014). 22. Shears P. Communicable disease surveillance with limited resources: the scope to link human and veterinary programmes. Acta Trop (2000) 76(1):3­7. doi:10.1016/S0001-706X(00)00081-4 23. Halliday J, Daborn C, Auty H, Mtema Z, Lembo T, Barend M, et al. Bringing together emerging and endemic zoonoses surveillance: shared challenges and a common solution. Phil Trans R Soc B (2012) 367(1604):2872­80. doi:10.1098/rstb.2011.0362 24. Struchen R, Vial F, Andersson G. Value of evidence from syndromic surveillance with delayed reporting. Online JPublic Health Inform (2017) 9(1):e028. doi:10.5210/ojphi.v9i1.7606 25. Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG. EpiCollect: linking smartphones to web applications for epidemiology, ecology and community data collection. PLoS One (2009) 4(9):e6968. doi:10.1371/journal. pone.0006968 26. Walker JG. New media methods for syndromic surveillance and disease modelling. CAB Rev (2013) 8(31):1­13. doi:10.1079/PAVSNNR20138031 27. Madder M, Walker JG, Van Rooyen J, Knobel D, Vandamme E, Berkvens D, et al. e-Surveillance in animal health: use and evaluation of mobile tools. Parasitology (2012) 139(14):1831­42. doi:10.1017/S0031182012000571 28. Blazes DL, Lewis S. Disease Surveillance: Technological Contributions to Global Health Security. Boca Raton, FL: Taylor & Francis (2016). 29. Bowman S. Impact of electronic health record systems on information integrity: quality and safety implications. Perspect Health Inf Manag (2013) 10(Fall):1c. 30. VanderWaal K, Morrison RB, Neuhauser C, Vilalta C, Perez AM. Translating big data into smart data for veterinary epidemiology. Front Vet Sci (2017) 4:110. doi:10.3389/fvets.2017.00110 31. McCue ME, McCoy AM. The scope of big data in one medicine: unprecedented opportunities and challenges. Front Vet Sci (2017) 4:194. doi:10.3389/ fvets.2017.00194 32. Dórea FC, Muckle CA, Kelton D, McClure J, McEwen BJ, McNab WB, et al. Exploratory analysis of methods for automated classification of laboratory test orders into syndromic groups in veterinary medicine. PLoS One (2013) 8(3):e57334. doi:10.1371/journal.pone.0057334 33. Alba A, Dórea FC, Arinero L, Sanchez J, Cordón R, Puig P, et al. Exploring the surveillance potential of mortality data: nine years of bovine fallen stock data collected in Catalonia (Spain). PLoS One (2015) 10(4):e0122547. doi:10.1371/journal.pone.0122547 34. Dupuy C, Morignat E, Maugey X, Vinard J-L, Hendrikx P, Ducrot C, et al. Defining syndromes using cattle meat inspection data for syndromic surveillance purposes: a statistical approach with the 2005­2010 data from ten French slaughterhouses. BMC Vet Res (2013) 9:88. doi:10.1186/1746-6148-9-88 35. Bronner A, Morignat E, Hénaux V, Madouasse A, Gay E, Calavas D. Devising an indicator to detect mid-term abortions in dairy cattle: a first step towards syndromic surveillance of abortive diseases. PLoS One (2015) 10(3):e0119012. doi:10.1371/journal.pone.0119012 36. German RR, Lee L, Horan J, Milstein R, Pertowski C, Waller M. Updated guidelines for evaluating public health surveillance systems. MMWR Recomm Rep (2001) 50:1­35. 37. Bugeza J, Kankya C, Muleme J, Akandinda A, Sserugga J, Nantima N, et al. Participatory evaluation of delivery of animal health care services by community animal health workers in Karamoja region of Uganda. PLoS One (2017) 12(6):e0179110. doi:10.1371/journal.pone.0179110
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+9
+
+January 2018|Volume 5|Article 2
+
+Beyene et al.
+
+Smartphones Improve Cattle Disease Surveillance
+
+38. Solomon AW, Pavluck AL, Courtright P, Aboe A, Adamu L, Alemayehu W, et al. The global trachoma mapping project: methodology of a 34-country population-based study. Ophthal Epidemiol (2015) 22(3):214­25. doi:10.310 9/09286586.2015.1037401
+39. Bravata DM, McDonald KM, Smith WM, Rydzak C, Szeto H, Buckeridge DL, et al. Systematic review: surveillance systems for early detection of bioterrorismrelated diseases. Ann Intern Med (2004) 140(11):910­22. doi:10.7326/00034819-140-11-200406010-00013
+40. Vrbova L, Stephen C, Kasman N, Boehnke R, Doyle-Waters M, ChablittClark A, et al. Systematic review of surveillance systems for emerging zoonoses. Transbound Emerg Dis (2010) 57(3):154­61. doi:10.1111/j.18651682.2010.01100.x
+41. Barrington J, Wereko-Brobby O, Ward P, Mwafongo W, Kungulwe S. SMS for Life: a pilot project to improve anti-malarial drug supply management in rural Tanzania using standard technology. Malaria J (2010) 9(1):298. doi:10.1186/1475-2875-9-298
+42. Toda M, Njeru I, Zurovac D, Kareko D, Shikanga O, Mwau M, et al. Understanding mSOS: a qualitative study examining the implementation of a text-messaging outbreak alert system in rural Kenya. PLoS One (2017) 12(6):e0179408. doi:10.1371/journal.pone.0179408
+43. Karimuribo ED, Batamuzi EK, Massawe LB, Silayo RS, Mgongo FO, Kimbita E, et al. Potential use of mobile phones in improving animal health
+
+service delivery in underserved rural areas: experience from Kilosa and Gairo districts in Tanzania. BMC Vet Res (2016) 12(1):219. doi:10.1186/ s12917-016-0860-z 44. Okwii D. Which Mobile Vendor Will Deliver the Ultimate $50 Smartphone for Africa? (2014). Available from: http://www.dignited.com/10896/ mobile-vendor-will-deliver-ultimate-50-smartphone-africa/
+Conflict of Interest Statement: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. IC was at the time of the study acting as Technical Director for Cojengo, the software development partner in this IDRCfunded project.
+The reviewer AA and handling editor declared their shared affiliation.
+Copyright © 2018 Beyene, Asfaw, Getachew, Tufa, Collins, Beyi and Revie. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+
+Frontiers in Veterinary Science | www.frontiersin.org
+
+10
+
+January 2018|Volume 5|Article 2
+
+
