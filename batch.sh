@@ -21,6 +21,7 @@ echo "ocr exported as text to ./ocr/"
 # search ocr output for keywords from wordlist
 ##############################################
 
+cd ..
 grep -o -i -r -f wordlist.txt ocr/ > searchresults.txt
 
 #sort this file according to keywords
