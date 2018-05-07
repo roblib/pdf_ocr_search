@@ -1,3 +1,5 @@
+targetword1
+
 Original Research published: 16 January 2018 doi: 10.3389/fvets.2018.00002
 
 A Smartphone-Based Application Improves the Accuracy, Completeness, and Timeliness of Cattle Disease Reporting and Surveillance in Ethiopia
